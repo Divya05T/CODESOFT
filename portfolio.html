@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya Yogeshwar Tajane Portfolio</title>
+  <style>
+    /* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #bac2d1,#809ace, #215586);
+    color: #0e0f1b;
+  }
+
+  /* Header Section */
+  header {
+    background: linear-gradient(to right, #3a5998, #03325d);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    
+  }
+  header img {
+    width: 50px; /* Add your logo image size */
+    vertical-align: middle;
+  }
+  header .tagline {
+    font-size: 18px;
+    margin-top: 5px;
+    font-style: italic;
+  }
+
+  /* About Section */
+  .about {
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .about img {
+    border-radius: 45%;
+    width: 70px; /* Set your image size */
+  }
+  .about p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /* Skills Section */
+  .skills {
+    background: linear-gradient(to right, #bac2d1,#809ace, #215586);
+    padding: 40px 20px;
+  }
+  .skills h2, .skills h3 {
+    text-align: center;
+    color: rgb(17, 1, 1);
+    background: linear-gradient(to right, #3a5998, #03325d);
+  }
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+  }
+  .skills li {
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+  }
+
+  /* Projects Section */
+  .projects {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .project {
+    width: 45%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .p1tag,h2{
+    text-align: center;
+    color: rgb(17, 1, 1);
+    background: linear-gradient(to right, #3a5998, #03325d);
+  }
+  .project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .project h3 {
+    text-align: center;
+    margin: 15px 0;
+  }
+  .project p {
+    padding: 0 15px;
+    text-align: justify;
+  }
+    /* certificate section */
+  .Certificate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.Certificate > div {
+  flex: 0 0 45%; /* Each item takes up 45% of the row */
+  margin-bottom: 20px; /* Space between rows */
+  text-align: center; /* Center align text */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a card effect */
+  border-radius: 8px; /* Optional: Rounded corners */
+  background-color: #f9f9f9; /* Optional: Background color */
+}
+
+.Certificate img {
+  width: 60%;
+  height: auto;
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  border-radius: 5px;
+} 
+  /* Resume Section */
+  .resume {
+    text-align: center;
+    padding: 40px 20px;
+    color: rgb(226, 218, 218);
+    
+  }
+  .resume a {
+    text-decoration: none;
+    color: white;
+    background-color: #3c3b3f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #3a5998, #03325d);
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 40px 20px;
+    text-align: center;
+    color: rgb(17, 1, 1);
+    
+  }
+  .contact p {
+    font-size: 16px;
+    
+    
+  }
+  .contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    background: linear-gradient(to right, #3a5998, #03325d);
+    
+  }
+
+  /* Footer Section */
+  footer {
+    background: linear-gradient(to right, #3a5998, #03325d);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer p {
+    margin: 5px 0;
+  }
+  footer .social-icons img {
+
+    width: 25px;
+    margin: 0 10px;
+  }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <img src="images.jpg" alt="JDIET Logo" /> <!-- Add the logo of JDIET Yavatmal -->
+    <h1>Divya Yogeshwar Tajane</h1>
+    <p class="tagline">Aspiring Software Engineer</p> <!-- Add an attractive tagline -->
+  </header>
+
+  <!-- About Section -->
+  
+  <section class="about">
+    <img src="myimg3.jpg" alt="Divya's Image" /> <!-- Add your image here -->
+    <p>
+      I am Divya Yogeshwar Tajne, currently in my final year of Computer Science Engineering at Jawaharlal Darda Institute of Engineering and Technology, Yavatmal. As a diligent and passionate student, I am eager to pursue a rewarding career in the field of computer science and engineering. I excel in fostering effective teamwork and collaboration to achieve shared goals. I am enthusiastic about opportunities for networking, skill development, and career advancement. <!-- Short bio highlighting your skills and experience -->
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <h3>Hard Skills</h3>
+    <ul>
+      <li>C Programming</li>
+      <li>Java Programming</li>
+      <li>Web Development</li>
+    </ul>
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Time Management</li>
+      <li>Teamwork</li>
+      <li>Leadership</li>
+      <li>Adaptability</li>
+      <li>Patience</li>
+    </ul>
+  </section>
+
+  <!-- Certification Section -->
+  <h2 class="P1tag">Certificates</h2>
+  <section class="Certificate">
+    <div class="Certificate">
+      <img src="C-pro2_img.jpg" alt="Certificate 1" /> <!-- Add your Certificate image -->
+      
+    
+    </div>
+    <div class="Certificate">
+      <img src="certi_img2.jpg" alt="Certificate 2" /> <!-- Add your Certificate image -->
+     
+      
+    </div>
+    <div class="Certificate">
+      <img src="certi_img3.jpg" alt="Certificate 3" /> <!-- Add your Certificate image -->
+      
+      </div>
+  </section>
+
+  <!-- Projects Section -->
+  <h2 class="P1tag">Projects</h2>
+  <section class="projects">
+     <div class="project">
+      <img src="project_img1.jpg" alt="Project 1" /> <!-- Add your project image -->
+      <h3>E-commerce Website</h3>
+      <p>As part of my web development internship with AcmeGrade, I developed an e-commerce website project, showcasing my skills in HTML, CSS, JavaScript, and SQL to create a user-friendly platform for online shopping. The project included features such as product listings, a shopping cart.</p> <!-- Add a short description of the project -->
+    </div>
+    <div class="project">
+      <img src="project_img2.jpg" alt="Project 2" /> <!-- Add your project image -->
+      <h3>Amezon Clone</h3>
+      <p>Created a landing page for an Amazon clone using HTML and CSS, featuring a responsive design with a navbar, product listings, and promotional banners. The project showcases my skills in front-end development.</p> <!-- Add a short description of the project -->
+    </div>
+    <div class="project">
+      <img src="project_img3.jpg" alt="Project 3" /> <!-- Add your project image -->
+      <h3>Landing page</h3>
+      <p>Created a responsive landing page for a coffee shop as part of a web development internship task at Codsoft. The project involved using HTML and CSS to design a user-friendly interface with a navbar, logo, search bar, and visually appealing layout.</p> <!-- Add a short description of the project -->
+    </div>
+    <div class="project">
+      <img src="project_img4.jpg" alt="Project 4" /> <!-- Add your project image -->
+      <h3>Payment Form</h3>
+      <p>For the project of creating a landing page with a payment form using HTML and CSS, you will design a user-friendly interface that includes form fields for payment details, styling for visual appeal, and basic validation for secure data entry. The goal is to provide a seamless and intuitive experience for users making transactions.</p> <!-- Add a short description of the project -->
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="resume">
+    <h2>Resume</h2>
+    <a href="Resume" target="_blank">Download Resume</a> <!-- Add the link to your resume in PDF format -->
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: divyatajne4@gmail.com</p> <!-- Replace with your email -->
+    <p>Mobile: +91 830xxxxxxx</p> <!-- Replace with your mobile number -->
+    <p>LinkedIn: <a href="https://linkedin.com/in/divya-tajne-13423122a" target="_blank">https://linkedin.com/in/divya-tajne-13423122a</a> <!-- Replace with your LinkedIn profile link -->
+    </p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Divya Yogeshwar Tajane. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://whatsapp.com"><img src="whatsAPPICON" alt="WhatsApp" /></a> <!-- Add WhatsApp logo -->
+      <a href="https://facebook.com"><img src="faceicon" alt="Facebook" /></a> <!-- Add Facebook logo -->
+      <a href="https://linkedin.com"><img src="linkinicon" alt="LinkedIn" /></a> <!-- Add LinkedIn logo -->
+    </div>
+  </footer>
+</body>
+</html>

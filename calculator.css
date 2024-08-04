@@ -1,0 +1,70 @@
+/* Set the background with a gradient color */
+body {
+    background: right linear-gradient(to bottom, rgb(198, 47, 47), rgb(199, 199, 49), rgb(200, 138, 24), rgb(21, 125, 21), rgb(41, 41, 189));
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container for the calculator */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Calculator box styling */
+.calculator {
+    background-color: lightgrey; /* Background color for the calculator */
+    border-radius: 10px;
+    box-shadow: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+}
+
+/* Display screen styling */
+.display {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+/* Button grid styling */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px;
+}
+
+/* Button styling */
+.btn {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #eee; /* Background color for buttons */
+    color: #333;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Special button styling for clear button */
+#clear {
+    grid-column: span 4; /* Span across all columns */
+    background-color: #f44336; /* Red color for clear button */
+    color: white;
+}
